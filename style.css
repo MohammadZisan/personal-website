@@ -1,6 +1,8 @@
 body{
     margin: 0px;
     font-family: 'Poppins', sans-serif;
+    height: 100%;
+    min-height: 100%;
 }
 h1{
     font-size: 50px;
@@ -40,9 +42,55 @@ section{
 }
 .top-banner{
     background-image: url(images/header-bg.png);
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
 }
-.biography{
+.biography-area{
     background-image: url(images/biography-bg.png);
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#latest-title{
+    color: tomato;
+}
+.latest-work{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+div.latest-work{
+    margin: 0;
+    border: 1px solid #cccccc;
+    float: left;
+    position: relative;
+}
+div.latest-work:hover {
+    border: 1px solid #777;
+}
+.button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 300px;
+    padding-top: 0px;
+    border-radius: 5px;  
+}
+.footer-1{
+    text-align: center;
+    color: black;
+    margin-top: -10px;
+}
+#container{
+    text-align: center;
+}
+#copy{
+    text-align: center;
+    text-size: 8px;
+}
+.footer{
+    padding: 20px;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
 }
